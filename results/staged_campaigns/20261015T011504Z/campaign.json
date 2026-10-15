@@ -1,0 +1,15 @@
+{
+  "project": "Race Track Training",
+  "started_at": "2026-10-15T01:15:04.043503+00:00",
+  "stages": 30,
+  "timesteps_per_stage": 10000,
+  "target_total_timesteps": 300000,
+  "n_envs": 2,
+  "device": "cpu",
+  "eval_episodes": 3,
+  "config": "configs/ppo_carracing.yaml",
+  "start_stage": 1,
+  "reset": true,
+  "finished_at": "2026-10-15T02:15:55.374675+00:00",
+  "status": "completed"
+}

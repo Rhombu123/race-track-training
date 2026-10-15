@@ -1,0 +1,147 @@
+$ /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/bin/python -m src.train --config configs/ppo_carracing.yaml --timesteps 10000 --n-envs 2 --device cpu --resume auto
+cwd: /Users/abdal-1/Desktop/CursorTemp/Race Track Training
+started: 2026-10-15T01:43:15.450219+00:00
+
+objc[73721]: Class SDL_RumbleMotor is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a0d40) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d89c8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class SDL_RumbleContext is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a0d90) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8a18). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class SDLApplication is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a0890) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8a68). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class SDLAppDelegate is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a08e0) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8ab8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class SDLTranslatorResponder is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a0958) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8b30). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class SDLMessageBoxPresenter is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a0980) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8b58). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class SDL_cocoametalview is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a09d0) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8ba8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class SDLOpenGLContext is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a0a20) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8bf8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class SDL_ShapeData is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a0a98) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8c70). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class SDL_CocoaClosure is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a0ae8) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8cc0). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class SDL_VideoData is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a0b38) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8d10). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class SDL_WindowData is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a0b88) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8d60). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class SDLWindow is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a0bb0) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8d88). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class Cocoa_WindowListener is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a0bd8) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8db0). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class SDLView is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a0c50) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8e28). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class METAL_RenderData is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a0cc8) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8ea0). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[73721]: Class METAL_TextureData is implemented in both /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/cv2/.dylibs/libSDL2-2.0.0.dylib (0x1166a0d18) and /Users/abdal-1/Desktop/CursorTemp/Race Track Training/.venv/lib/python3.13/site-packages/pygame/.dylibs/libSDL2-2.0.0.dylib (0x1185d8ef0). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+Env: CarRacing-v3 | n_envs=2 | timesteps=10000 | device=cpu
+macOS: using DummyVecEnv (set CARRACING_FORCE_SUBPROC=1 to force SubprocVecEnv)
+Continuing training from models/best/best_model.zip
+(adding ~10000 more timesteps on top of that checkpoint)
+Training session log → results/simulations/Run 34 - 2026-10-15 01:43:16 UTC (train)/
+Logging to logs/tb/ppo_carracing_1
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 998      |
+|    ep_rew_mean     | 165      |
+| time/              |          |
+|    fps             | 277      |
+|    iterations      | 1        |
+|    time_elapsed    | 7        |
+|    total_timesteps | 142048   |
+---------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 998        |
+|    ep_rew_mean          | 171        |
+| time/                   |            |
+|    fps                  | 191        |
+|    iterations           | 2          |
+|    time_elapsed         | 21         |
+|    total_timesteps      | 144096     |
+| train/                  |            |
+|    approx_kl            | 0.04047124 |
+|    clip_fraction        | 0.313      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.18      |
+|    explained_variance   | 0.96       |
+|    learning_rate        | 0.0003     |
+|    loss                 | 9.89       |
+|    n_updates            | 228        |
+|    policy_gradient_loss | 0.0101     |
+|    std                  | 0.976      |
+|    value_loss           | 22.7       |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 998         |
+|    ep_rew_mean          | 180         |
+| time/                   |             |
+|    fps                  | 173         |
+|    iterations           | 3           |
+|    time_elapsed         | 35          |
+|    total_timesteps      | 146144      |
+| train/                  |             |
+|    approx_kl            | 0.023589846 |
+|    clip_fraction        | 0.332       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.18       |
+|    explained_variance   | 0.973       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 12.3        |
+|    n_updates            | 232         |
+|    policy_gradient_loss | 0.0156      |
+|    std                  | 0.976       |
+|    value_loss           | 22.5        |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 998         |
+|    ep_rew_mean          | 191         |
+| time/                   |             |
+|    fps                  | 164         |
+|    iterations           | 4           |
+|    time_elapsed         | 49          |
+|    total_timesteps      | 148192      |
+| train/                  |             |
+|    approx_kl            | 0.043614477 |
+|    clip_fraction        | 0.4         |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.18       |
+|    explained_variance   | 0.965       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 10.7        |
+|    n_updates            | 236         |
+|    policy_gradient_loss | 0.0193      |
+|    std                  | 0.977       |
+|    value_loss           | 37.2        |
+-----------------------------------------
+Eval num_timesteps=150000, episode_reward=263.19 +/- 258.80
+Episode length: 625.20 +/- 196.43
+----------------------------------------
+| eval/                   |            |
+|    mean_ep_length       | 625        |
+|    mean_reward          | 263        |
+| time/                   |            |
+|    total_timesteps      | 150000     |
+| train/                  |            |
+|    approx_kl            | 0.05202091 |
+|    clip_fraction        | 0.386      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -4.18      |
+|    explained_variance   | 0.97       |
+|    learning_rate        | 0.0003     |
+|    loss                 | 8.49       |
+|    n_updates            | 240        |
+|    policy_gradient_loss | 0.0274     |
+|    std                  | 0.976      |
+|    value_loss           | 28         |
+----------------------------------------
+New best mean reward!
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 998      |
+|    ep_rew_mean     | 205      |
+| time/              |          |
+|    fps             | 134      |
+|    iterations      | 5        |
+|    time_elapsed    | 75       |
+|    total_timesteps | 150240   |
+---------------------------------
+ 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10,240/10,000  [ 0:01:14 < 0:00:00 , 79 it/s ]
+
+Saved final model to models/final_model.zip
+Best model (by eval) under models/best/
+Documented simulation → results/simulations/Run 34 - 2026-10-15 01:43:16 UTC (train)/
+
+Training does not show a window. Watch (and auto-record) with:
+  python -m src.watch
+Session docs: results/simulations/Run 34 - 2026-10-15 01:43:16 UTC (train)/
+
+finished: 2026-10-15T01:44:39.551439+00:00
+exit_code: 0

@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+.ipynb_checkpoints/
+
+# Training artifacts
+logs/
+models/
+*.zip
+
+# TensorBoard
+events.out.tfevents.*
+
+# Keep simulation docs (session.json, console logs, reports);
+# skip heavy media (GIFs alone are ~900MB — too large for GitHub)
+results/**/*.gif
+results/**/*.mp4
+results/staged_campaigns/live_console.log
+
+# Misc
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/

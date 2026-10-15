@@ -1,0 +1,19 @@
+{
+  "model": "models/final_model.zip",
+  "env_id": "CarRacing-v3",
+  "episodes": 3,
+  "deterministic": true,
+  "render_mode": null,
+  "recorded": true,
+  "session_dir": "results/simulations/Run 49 - 2026-10-15 01:59:10 UTC (eval)",
+  "mean_reward": 623.43004648859,
+  "std_reward": 194.46149611716052,
+  "min_reward": 441.2541254125266,
+  "max_reward": 892.9328621907941,
+  "mean_length": 1000.0,
+  "rewards": [
+    892.9328621907941,
+    441.2541254125266,
+    536.1031518624496
+  ]
+}

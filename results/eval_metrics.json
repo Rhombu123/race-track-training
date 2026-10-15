@@ -1,0 +1,15 @@
+{
+  "model": "models/best/best_model.zip",
+  "env_id": "CarRacing-v3",
+  "episodes": 1,
+  "deterministic": true,
+  "render_mode": null,
+  "mean_reward": 41.34275618374898,
+  "std_reward": 0.0,
+  "min_reward": 41.34275618374898,
+  "max_reward": 41.34275618374898,
+  "mean_length": 1000.0,
+  "rewards": [
+    41.34275618374898
+  ]
+}

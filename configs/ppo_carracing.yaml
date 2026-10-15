@@ -1,0 +1,43 @@
+# PPO hyperparameters for Gymnasium CarRacing
+# CarRacing-v3 is the maintained equivalent of Gym CarRacing-v0
+
+env_id: CarRacing-v3
+seed: 42
+
+# Observation preprocessing
+frame_stack: 4
+resize: 84
+
+# Vectorized environments
+n_envs: 4
+# Subproc is faster on Linux; on macOS the code falls back to DummyVecEnv
+# (pygame/Box2D + fork/spawn is brittle). Force with CARRACING_FORCE_SUBPROC=1.
+use_subproc: true
+
+# Training
+total_timesteps: 1_000_000
+# Override via CLI for smoke tests, e.g. --timesteps 10000
+
+# PPO
+policy: CnnPolicy
+learning_rate: 0.0003
+n_steps: 1024
+batch_size: 128
+n_epochs: 4
+gamma: 0.99
+gae_lambda: 0.95
+clip_range: 0.2
+ent_coef: 0.01
+vf_coef: 0.5
+max_grad_norm: 0.5
+
+# Logging / checkpoints
+log_dir: logs
+model_dir: models
+tb_log_name: ppo_carracing
+eval_freq: 10000   # in timesteps (divided by n_envs internally by SB3 callback)
+n_eval_episodes: 5
+save_freq: 50000
+
+# Device: auto | cpu | cuda | mps
+device: auto

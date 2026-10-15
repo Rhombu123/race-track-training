@@ -1,0 +1,13 @@
+{
+  "stage": 30,
+  "status": "ok",
+  "cumulative_timesteps_target": 300000,
+  "train_exit": 0,
+  "eval_exit": 0,
+  "train_log": "/Users/abdal-1/Desktop/CursorTemp/Race Track Training/results/staged_campaigns/20261015T011504Z/stage_30/console_train.log",
+  "eval_log": "/Users/abdal-1/Desktop/CursorTemp/Race Track Training/results/staged_campaigns/20261015T011504Z/stage_30/console_eval.log",
+  "episodes_copy": "/Users/abdal-1/Desktop/CursorTemp/Race Track Training/results/staged_campaigns/20261015T011504Z/stage_30/episodes/simulation_session",
+  "finished_at": "2026-10-15T02:15:55.374285+00:00",
+  "mean_reward": 293.8101900949053,
+  "session_dir": "results/simulations/Run 65 - 2026-10-15 02:15:19 UTC (eval)"
+}
