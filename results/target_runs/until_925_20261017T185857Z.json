@@ -1,0 +1,60 @@
+{
+  "target": 925.0,
+  "best_seen": 867.8571428571245,
+  "history": [
+    {
+      "round": 0,
+      "phase": "eval_first",
+      "model": "models/best/best_model.zip",
+      "max_reward": 867.8571428571245,
+      "mean_reward": 598.8828463618751,
+      "session": "/Users/abdal-1/Desktop/CursorTemp/Race Track Training/results/simulations/Run 68 - 2026-10-17 18:58:58 UTC (eval)",
+      "at": "2026-10-17T19:02:52.596908+00:00"
+    },
+    {
+      "round": 0,
+      "phase": "eval_first",
+      "model": "models/final_model.zip",
+      "max_reward": 492.85714285713874,
+      "mean_reward": 348.1382230068466,
+      "session": "/Users/abdal-1/Desktop/CursorTemp/Race Track Training/results/simulations/Run 69 - 2026-10-17 19:02:54 UTC (eval)",
+      "at": "2026-10-17T19:06:46.551077+00:00"
+    },
+    {
+      "round": 1,
+      "phase": "post_train_best",
+      "model": "models/best/best_model.zip",
+      "max_reward": 393.5483870967665,
+      "mean_reward": 215.5981624423552,
+      "session": "/Users/abdal-1/Desktop/CursorTemp/Race Track Training/results/simulations/Run 71 - 2026-10-17 19:08:52 UTC (eval)",
+      "at": "2026-10-17T19:12:44.267685+00:00"
+    },
+    {
+      "round": 1,
+      "phase": "post_train_final",
+      "model": "models/final_model.zip",
+      "max_reward": 596.9696969696787,
+      "mean_reward": 334.34505437251846,
+      "session": "/Users/abdal-1/Desktop/CursorTemp/Race Track Training/results/simulations/Run 72 - 2026-10-17 19:12:45 UTC (eval)",
+      "at": "2026-10-17T19:16:41.400764+00:00"
+    },
+    {
+      "round": 2,
+      "phase": "post_train_best",
+      "model": "models/best/best_model.zip",
+      "max_reward": 771.4285714285631,
+      "mean_reward": 331.0389755265261,
+      "session": "/Users/abdal-1/Desktop/CursorTemp/Race Track Training/results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)",
+      "at": "2026-10-17T19:23:18.621850+00:00"
+    },
+    {
+      "round": 2,
+      "phase": "post_train_final",
+      "model": "models/final_model.zip",
+      "max_reward": 444.82758620687775,
+      "mean_reward": 175.57260818877526,
+      "session": "/Users/abdal-1/Desktop/CursorTemp/Race Track Training/results/simulations/Run 75 - 2026-10-17 19:23:20 UTC (eval)",
+      "at": "2026-10-17T19:27:30.746510+00:00"
+    }
+  ]
+}

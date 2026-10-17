@@ -1,0 +1,76 @@
+{
+  "kind": "eval",
+  "display_name": "Run 110 - 2026-10-17 21:57:51 UTC (eval)",
+  "started_at": "2026-10-17T21:57:51.318220+00:00",
+  "model": "models/checkpoints/ppo_carracing_370000_steps.zip",
+  "session_dir": "results/simulations/Run 110 - 2026-10-17 21:57:51 UTC (eval)",
+  "env_id": "CarRacing-v3",
+  "episodes_requested": 8,
+  "deterministic": true,
+  "seed": 42,
+  "finished_at": "2026-10-17T21:58:16.669617+00:00",
+  "mean_reward": 447.5385422885084,
+  "std_reward": 77.72261840358944,
+  "min_reward": 289.68481375356737,
+  "max_reward": 564.2335766423187,
+  "mean_length": 1000.0,
+  "episodes": [
+    {
+      "episode": 1,
+      "reward": 451.23674911659367,
+      "length": 1000,
+      "seed": 42,
+      "recording": null
+    },
+    {
+      "episode": 2,
+      "reward": 530.3630363036154,
+      "length": 1000,
+      "seed": 43,
+      "recording": null
+    },
+    {
+      "episode": 3,
+      "reward": 289.68481375356737,
+      "length": 1000,
+      "seed": 44,
+      "recording": null
+    },
+    {
+      "episode": 4,
+      "reward": 470.06369426749666,
+      "length": 1000,
+      "seed": 45,
+      "recording": null
+    },
+    {
+      "episode": 5,
+      "reward": 449.01960784312087,
+      "length": 1000,
+      "seed": 46,
+      "recording": null
+    },
+    {
+      "episode": 6,
+      "reward": 411.9453924914579,
+      "length": 1000,
+      "seed": 47,
+      "recording": null
+    },
+    {
+      "episode": 7,
+      "reward": 564.2335766423187,
+      "length": 1000,
+      "seed": 48,
+      "recording": null
+    },
+    {
+      "episode": 8,
+      "reward": 413.76146788989655,
+      "length": 1000,
+      "seed": 49,
+      "recording": null
+    }
+  ],
+  "n_episodes": 8
+}

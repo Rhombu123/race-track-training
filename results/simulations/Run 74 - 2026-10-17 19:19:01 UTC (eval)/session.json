@@ -1,0 +1,160 @@
+{
+  "kind": "eval",
+  "display_name": "Run 74 - 2026-10-17 19:19:01 UTC (eval)",
+  "started_at": "2026-10-17T19:19:01.679825+00:00",
+  "model": "models/best/best_model.zip",
+  "session_dir": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)",
+  "env_id": "CarRacing-v3",
+  "episodes_requested": 20,
+  "deterministic": true,
+  "seed": 42,
+  "finished_at": "2026-10-17T19:23:18.219389+00:00",
+  "mean_reward": 331.0389755265261,
+  "std_reward": 170.07579355525164,
+  "min_reward": 106.1855670103142,
+  "max_reward": 771.4285714285631,
+  "mean_length": 1000.0,
+  "episodes": [
+    {
+      "episode": 1,
+      "reward": 327.56183745581734,
+      "length": 1000,
+      "seed": 42,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_001.gif"
+    },
+    {
+      "episode": 2,
+      "reward": 431.35313531352324,
+      "length": 1000,
+      "seed": 43,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_002.gif"
+    },
+    {
+      "episode": 3,
+      "reward": 226.64756446990702,
+      "length": 1000,
+      "seed": 44,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_003.gif"
+    },
+    {
+      "episode": 4,
+      "reward": 167.5159235668841,
+      "length": 1000,
+      "seed": 45,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_004.gif"
+    },
+    {
+      "episode": 5,
+      "reward": 520.9150326797328,
+      "length": 1000,
+      "seed": 46,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_005.gif"
+    },
+    {
+      "episode": 6,
+      "reward": 367.5767918088702,
+      "length": 1000,
+      "seed": 47,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_006.gif"
+    },
+    {
+      "episode": 7,
+      "reward": 330.6569343065526,
+      "length": 1000,
+      "seed": 48,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_007.gif"
+    },
+    {
+      "episode": 8,
+      "reward": 270.03058103973905,
+      "length": 1000,
+      "seed": 49,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_008.gif"
+    },
+    {
+      "episode": 9,
+      "reward": 205.84192439862193,
+      "length": 1000,
+      "seed": 50,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_009.gif"
+    },
+    {
+      "episode": 10,
+      "reward": 179.46127946128428,
+      "length": 1000,
+      "seed": 51,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_010.gif"
+    },
+    {
+      "episode": 11,
+      "reward": 316.666666666652,
+      "length": 1000,
+      "seed": 52,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_011.gif"
+    },
+    {
+      "episode": 12,
+      "reward": 771.4285714285631,
+      "length": 1000,
+      "seed": 53,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_012.gif"
+    },
+    {
+      "episode": 13,
+      "reward": 649.9999999999809,
+      "length": 1000,
+      "seed": 54,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_013.gif"
+    },
+    {
+      "episode": 14,
+      "reward": 144.37299035370262,
+      "length": 1000,
+      "seed": 55,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_014.gif"
+    },
+    {
+      "episode": 15,
+      "reward": 333.0218068535664,
+      "length": 1000,
+      "seed": 56,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_015.gif"
+    },
+    {
+      "episode": 16,
+      "reward": 393.1034482758435,
+      "length": 1000,
+      "seed": 57,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_016.gif"
+    },
+    {
+      "episode": 17,
+      "reward": 106.1855670103142,
+      "length": 1000,
+      "seed": 58,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_017.gif"
+    },
+    {
+      "episode": 18,
+      "reward": 490.44368600681116,
+      "length": 1000,
+      "seed": 59,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_018.gif"
+    },
+    {
+      "episode": 19,
+      "reward": 155.73770491803802,
+      "length": 1000,
+      "seed": 60,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_019.gif"
+    },
+    {
+      "episode": 20,
+      "reward": 232.25806451611862,
+      "length": 1000,
+      "seed": 61,
+      "recording": "results/simulations/Run 74 - 2026-10-17 19:19:01 UTC (eval)/episode_020.gif"
+    }
+  ],
+  "n_episodes": 20
+}

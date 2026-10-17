@@ -11,9 +11,11 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
 from pathlib import Path
 from typing import Any
 
+import numpy as np
 import yaml
 from stable_baselines3 import PPO
 from stable_baselines3.common.callbacks import (
@@ -130,8 +132,35 @@ def main() -> None:
         deterministic=True,
         render=False,
     )
+    # Resume must not clobber a stronger best_model.zip: EvalCallback starts at
+    # -inf and would overwrite on the first eval even if that score is worse.
+    best_score_path = best_dir / "best_score.json"
+    prior_best = float("-inf")
+    if best_score_path.is_file():
+        try:
+            prior_best = float(json.loads(best_score_path.read_text(encoding="utf-8"))["best_mean_reward"])
+        except (json.JSONDecodeError, KeyError, TypeError, ValueError):
+            prior_best = float("-inf")
+    eval_npz = log_dir / "eval" / "evaluations.npz"
+    if eval_npz.is_file():
+        try:
+            loaded = np.load(eval_npz)
+            if "results" in loaded and len(loaded["results"]):
+                prior_best = max(prior_best, float(np.mean(loaded["results"][-1])))
+                # Also consider historical peak in this log
+                prior_best = max(prior_best, float(np.max(np.mean(loaded["results"], axis=1))))
+        except (OSError, ValueError):
+            pass
+    if prior_best > float("-inf"):
+        eval_callback.best_mean_reward = prior_best
+        print(f"Preserving EvalCallback best_mean_reward floor at {prior_best:.2f}")
+
+    best_zip = best_dir / "best_model.zip"
+    if best_zip.is_file():
+        shutil.copy2(best_zip, best_dir / "best_model.protected.zip")
+
     checkpoint_callback = CheckpointCallback(
-        save_freq=max(int(cfg.get("save_freq", 50_000)) // n_envs, 1),
+        save_freq=max(int(cfg.get("save_freq", 25_000)) // n_envs, 1),
         save_path=str(ckpt_dir),
         name_prefix="ppo_carracing",
         save_replay_buffer=False,
@@ -221,11 +250,23 @@ def main() -> None:
     print(f"Saved final model to {final_path}.zip")
     print(f"Best model (by eval) under {best_dir}/")
 
+    best_score_path.write_text(
+        json.dumps(
+            {
+                "best_mean_reward": float(eval_callback.best_mean_reward),
+                "num_timesteps": int(model.num_timesteps),
+            },
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
     train_session.finalize(
         summary={
             "final_model": str(final_path) + ".zip",
             "best_model_dir": str(best_dir),
             "num_timesteps": int(model.num_timesteps),
+            "best_mean_reward": float(eval_callback.best_mean_reward),
         }
     )
     print(

@@ -1,0 +1,27 @@
+{
+  "kind": "eval",
+  "display_name": "Run 115 - 2026-10-17 22:03:02 UTC (eval)",
+  "started_at": "2026-10-17T22:03:02.944675+00:00",
+  "model": "models/best/best_model.zip",
+  "session_dir": "results/simulations/Run 115 - 2026-10-17 22:03:02 UTC (eval)",
+  "env_id": "CarRacing-v3",
+  "episodes_requested": 1,
+  "deterministic": true,
+  "seed": 137,
+  "finished_at": "2026-10-17T22:03:30.615257+00:00",
+  "mean_reward": 928.8999999999935,
+  "std_reward": 0.0,
+  "min_reward": 928.8999999999935,
+  "max_reward": 928.8999999999935,
+  "mean_length": 711.0,
+  "episodes": [
+    {
+      "episode": 1,
+      "reward": 928.8999999999935,
+      "length": 711,
+      "seed": 137,
+      "recording": "results/simulations/Run 115 - 2026-10-17 22:03:02 UTC (eval)/episode_001.gif"
+    }
+  ],
+  "n_episodes": 1
+}

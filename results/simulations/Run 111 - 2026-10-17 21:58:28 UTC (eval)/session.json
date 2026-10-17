@@ -1,0 +1,230 @@
+{
+  "kind": "eval",
+  "display_name": "Run 111 - 2026-10-17 21:58:28 UTC (eval)",
+  "started_at": "2026-10-17T21:58:28.505236+00:00",
+  "model": "models/best/best_model.zip",
+  "session_dir": "results/simulations/Run 111 - 2026-10-17 21:58:28 UTC (eval)",
+  "env_id": "CarRacing-v3",
+  "episodes_requested": 30,
+  "deterministic": true,
+  "seed": 40,
+  "finished_at": "2026-10-17T22:00:02.741110+00:00",
+  "mean_reward": 768.7210501588961,
+  "std_reward": 135.34700641661692,
+  "min_reward": 432.67973856207766,
+  "max_reward": 923.0999999999898,
+  "mean_length": 992.3,
+  "episodes": [
+    {
+      "episode": 1,
+      "reward": 720.3592814371092,
+      "length": 1000,
+      "seed": 40,
+      "recording": null
+    },
+    {
+      "episode": 2,
+      "reward": 828.1045751633782,
+      "length": 1000,
+      "seed": 41,
+      "recording": null
+    },
+    {
+      "episode": 3,
+      "reward": 839.9293286218921,
+      "length": 1000,
+      "seed": 42,
+      "recording": null
+    },
+    {
+      "episode": 4,
+      "reward": 477.55775577556415,
+      "length": 1000,
+      "seed": 43,
+      "recording": null
+    },
+    {
+      "episode": 5,
+      "reward": 656.4469914039961,
+      "length": 1000,
+      "seed": 44,
+      "recording": null
+    },
+    {
+      "episode": 6,
+      "reward": 603.8216560509372,
+      "length": 1000,
+      "seed": 45,
+      "recording": null
+    },
+    {
+      "episode": 7,
+      "reward": 432.67973856207766,
+      "length": 1000,
+      "seed": 46,
+      "recording": null
+    },
+    {
+      "episode": 8,
+      "reward": 790.7849829351351,
+      "length": 1000,
+      "seed": 47,
+      "recording": null
+    },
+    {
+      "episode": 9,
+      "reward": 874.4525547445064,
+      "length": 1000,
+      "seed": 48,
+      "recording": null
+    },
+    {
+      "episode": 10,
+      "reward": 796.0244648317862,
+      "length": 1000,
+      "seed": 49,
+      "recording": null
+    },
+    {
+      "episode": 11,
+      "reward": 882.8178694157882,
+      "length": 1000,
+      "seed": 50,
+      "recording": null
+    },
+    {
+      "episode": 12,
+      "reward": 866.3299663299485,
+      "length": 1000,
+      "seed": 51,
+      "recording": null
+    },
+    {
+      "episode": 13,
+      "reward": 516.6666666666512,
+      "length": 1000,
+      "seed": 52,
+      "recording": null
+    },
+    {
+      "episode": 14,
+      "reward": 874.9999999999823,
+      "length": 1000,
+      "seed": 53,
+      "recording": null
+    },
+    {
+      "episode": 15,
+      "reward": 842.567567567548,
+      "length": 1000,
+      "seed": 54,
+      "recording": null
+    },
+    {
+      "episode": 16,
+      "reward": 854.9839228295667,
+      "length": 1000,
+      "seed": 55,
+      "recording": null
+    },
+    {
+      "episode": 17,
+      "reward": 513.7071651090204,
+      "length": 1000,
+      "seed": 56,
+      "recording": null
+    },
+    {
+      "episode": 18,
+      "reward": 827.5862068965348,
+      "length": 1000,
+      "seed": 57,
+      "recording": null
+    },
+    {
+      "episode": 19,
+      "reward": 824.3986254295362,
+      "length": 1000,
+      "seed": 58,
+      "recording": null
+    },
+    {
+      "episode": 20,
+      "reward": 841.9795221842813,
+      "length": 1000,
+      "seed": 59,
+      "recording": null
+    },
+    {
+      "episode": 21,
+      "reward": 847.5409836065427,
+      "length": 1000,
+      "seed": 60,
+      "recording": null
+    },
+    {
+      "episode": 22,
+      "reward": 867.7419354838605,
+      "length": 1000,
+      "seed": 61,
+      "recording": null
+    },
+    {
+      "episode": 23,
+      "reward": 823.357664233559,
+      "length": 1000,
+      "seed": 62,
+      "recording": null
+    },
+    {
+      "episode": 24,
+      "reward": 923.0999999999898,
+      "length": 769,
+      "seed": 63,
+      "recording": null
+    },
+    {
+      "episode": 25,
+      "reward": 864.4128113878862,
+      "length": 1000,
+      "seed": 64,
+      "recording": null
+    },
+    {
+      "episode": 26,
+      "reward": 874.7292418772464,
+      "length": 1000,
+      "seed": 65,
+      "recording": null
+    },
+    {
+      "episode": 27,
+      "reward": 860.8540925266761,
+      "length": 1000,
+      "seed": 66,
+      "recording": null
+    },
+    {
+      "episode": 28,
+      "reward": 826.2820512820359,
+      "length": 1000,
+      "seed": 67,
+      "recording": null
+    },
+    {
+      "episode": 29,
+      "reward": 653.2051282051143,
+      "length": 1000,
+      "seed": 68,
+      "recording": null
+    },
+    {
+      "episode": 30,
+      "reward": 654.208754208737,
+      "length": 1000,
+      "seed": 69,
+      "recording": null
+    }
+  ],
+  "n_episodes": 30
+}

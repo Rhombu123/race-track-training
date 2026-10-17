@@ -1,0 +1,24 @@
+{
+  "target": 925.0,
+  "best_seen": 934.9999999999952,
+  "history": [
+    {
+      "round": 0,
+      "phase": "eval_first",
+      "model": "models/best/best_model.zip",
+      "max_reward": 901.4999999999862,
+      "mean_reward": 381.02860826414366,
+      "session": "/Users/abdal-1/Desktop/CursorTemp/Race Track Training/results/simulations/Run 77 - 2026-10-17 19:29:39 UTC (eval)",
+      "at": "2026-10-17T19:35:59.129662+00:00"
+    },
+    {
+      "round": 1,
+      "phase": "post_train_best",
+      "model": "models/best/best_model.zip",
+      "max_reward": 934.9999999999952,
+      "mean_reward": 762.9674977925343,
+      "session": "/Users/abdal-1/Desktop/CursorTemp/Race Track Training/results/simulations/Run 79 - 2026-10-17 19:44:37 UTC (eval)",
+      "at": "2026-10-17T19:50:42.204244+00:00"
+    }
+  ]
+}

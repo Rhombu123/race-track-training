@@ -1,0 +1,90 @@
+{
+  "kind": "eval",
+  "display_name": "Run 101 - 2026-10-17 21:27:09 UTC (eval)",
+  "started_at": "2026-10-17T21:27:09.088383+00:00",
+  "model": "models/final_model.zip",
+  "session_dir": "results/simulations/Run 101 - 2026-10-17 21:27:09 UTC (eval)",
+  "env_id": "CarRacing-v3",
+  "episodes_requested": 10,
+  "deterministic": true,
+  "seed": 102,
+  "finished_at": "2026-10-17T21:33:31.265500+00:00",
+  "mean_reward": 260.78646507188347,
+  "std_reward": 167.42262513646358,
+  "min_reward": 50.00000000000412,
+  "max_reward": 656.2724014336753,
+  "mean_length": 1000.0,
+  "episodes": [
+    {
+      "episode": 1,
+      "reward": 79.21146953405525,
+      "length": 1000,
+      "seed": 102,
+      "recording": "results/simulations/Run 101 - 2026-10-17 21:27:09 UTC (eval)/episode_001.gif"
+    },
+    {
+      "episode": 2,
+      "reward": 155.3956834532427,
+      "length": 1000,
+      "seed": 103,
+      "recording": "results/simulations/Run 101 - 2026-10-17 21:27:09 UTC (eval)/episode_002.gif"
+    },
+    {
+      "episode": 3,
+      "reward": 322.818791946311,
+      "length": 1000,
+      "seed": 104,
+      "recording": "results/simulations/Run 101 - 2026-10-17 21:27:09 UTC (eval)/episode_003.gif"
+    },
+    {
+      "episode": 4,
+      "reward": 50.00000000000412,
+      "length": 1000,
+      "seed": 105,
+      "recording": "results/simulations/Run 101 - 2026-10-17 21:27:09 UTC (eval)/episode_004.gif"
+    },
+    {
+      "episode": 5,
+      "reward": 334.4262295081823,
+      "length": 1000,
+      "seed": 106,
+      "recording": "results/simulations/Run 101 - 2026-10-17 21:27:09 UTC (eval)/episode_005.gif"
+    },
+    {
+      "episode": 6,
+      "reward": 363.3431085043924,
+      "length": 1000,
+      "seed": 107,
+      "recording": "results/simulations/Run 101 - 2026-10-17 21:27:09 UTC (eval)/episode_006.gif"
+    },
+    {
+      "episode": 7,
+      "reward": 279.06137184113993,
+      "length": 1000,
+      "seed": 108,
+      "recording": "results/simulations/Run 101 - 2026-10-17 21:27:09 UTC (eval)/episode_007.gif"
+    },
+    {
+      "episode": 8,
+      "reward": 142.62295081967366,
+      "length": 1000,
+      "seed": 109,
+      "recording": "results/simulations/Run 101 - 2026-10-17 21:27:09 UTC (eval)/episode_008.gif"
+    },
+    {
+      "episode": 9,
+      "reward": 656.2724014336753,
+      "length": 1000,
+      "seed": 110,
+      "recording": "results/simulations/Run 101 - 2026-10-17 21:27:09 UTC (eval)/episode_009.gif"
+    },
+    {
+      "episode": 10,
+      "reward": 224.71264367815795,
+      "length": 1000,
+      "seed": 111,
+      "recording": "results/simulations/Run 101 - 2026-10-17 21:27:09 UTC (eval)/episode_010.gif"
+    }
+  ],
+  "n_episodes": 10
+}
